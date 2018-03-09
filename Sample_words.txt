@@ -1,0 +1,4 @@
+apple, adventure
+banana, bat, balloon
+cat, condom, cameraman
+dog, django, disco
