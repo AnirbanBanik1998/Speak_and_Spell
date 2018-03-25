@@ -1,4 +1,6 @@
 apple, adventure
 banana, bat, balloon
-cat, condom, cameraman
+cat, cadbury, cameraman
 dog, django, disco
+elephant, ether
+fodder, fish

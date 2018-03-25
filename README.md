@@ -5,8 +5,7 @@
 ### Prerequisites
 * Python3
 * Espeak
-* Xlrd
 
 
-The games are initially in the basic terminal version... will make further improvements
+The games are initially in the basic terminal version... will make further improvements soon. Till now only made the games "Spell It" and "Hangman".
 
