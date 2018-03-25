@@ -72,7 +72,7 @@ with open("Sample_words.txt",'r') as f:
 				
 				if u=="No":
 					break
-		elif p=="Speak":
+		elif p=="Spell It":
 			while 1:
 				k=0
 				print("Spell It!")
