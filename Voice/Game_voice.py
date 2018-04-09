@@ -26,6 +26,7 @@ with open("Sample_words.txt",'r') as f:
 		
 				str1=""
 				def check(str1,l):
+					print(" Input is "+l)
 					for j in range(0, len(string)):
 						if l==column[randcolumn[0]][j] and string[j]=="-":
 							str1=str1+l
@@ -48,9 +49,10 @@ with open("Sample_words.txt",'r') as f:
 						letter=arr[n]
 					print(letter)
 					lt=letter
+					
 					try:
 						string=str(check(str1,lt))
-						print(string)
+						
 					except:
 						print("Not Possible")
 			

@@ -36,7 +36,7 @@ with open("Sample_words.txt",'r') as f:
 					letter=input("Enter letter: ")
 					type(letter)
 					string=str(check(str1,letter))
-					print(string)
+					
 					str1=""
 					for j in range(0, len(string)):
 						str1=str1+string[j]+" "
