@@ -5,7 +5,7 @@ import os
 arr={}'''
 headers={ 'User-Agent': 'Wikiscraper 1.0'
 		}
-f=open("./Wordlist.txt", 'w+')
+f=open("../Wordlist.txt", 'w+')
 source_code=requests.get("https://en.wiktionary.org/wiki/Appendix:1000_basic_English_words", headers=headers)
 text=source_code.text
 soup=BeautifulSoup(text)
