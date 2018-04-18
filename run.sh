@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Welcome"
-if [ -e Wordlist.txt ]
+if [ -e Wordlist.csv ]
 then
 	echo "Wordlists already present...we can start playing"
 else
@@ -12,13 +12,14 @@ else
 fi
 echo "How do you want to play: 1->With, 2->Without keyboard?"
 read input
-if input==1
+b=2
+if [[ "$input" -eq "$b" ]]
 then
 	cd Voice
 	chmod +x voice.sh
 	./voice.sh
 	cd ..
-else
+else 
 	python3 Game.py
 fi
 
