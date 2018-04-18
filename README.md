@@ -12,6 +12,11 @@ To run the entire program including collecting the wordlists if not present:
 sudo bash run.sh
 ```
 
+### To run the voice input version of the games
+```
+sudo bash voice.sh
+```
+
 ### In order to update the speech processing dictionary
 * Update the corpus.txt file with the necessary words, and delete the previous models.
 * Go to the [CMU-Sphinx](https://cmusphinx.github.io) website
@@ -27,7 +32,7 @@ sudo bash run.sh
 * Building a suitable UI for the whole project.
 * Fixing bugs related to the speech processing part.
 
-## Documentation
+## Description
 
 ### scraper.py
 This scrapes out the basic English wordlists from Wikitionary to be used in this project.
