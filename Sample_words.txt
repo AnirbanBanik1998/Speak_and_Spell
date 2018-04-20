@@ -1,6 +1,0 @@
-apple, adventure
-banana, bat, balloon
-cat, cadbury, cameraman
-dog, django, disco
-elephant, ether
-fodder, fish

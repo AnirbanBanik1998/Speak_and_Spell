@@ -1,5 +1,0 @@
-apple, adventure, analogy, advertisement, adder, abolish, admonish
-banana, bat, balloon, bowler, biscuit
-cat, condom, cameraman
-dog, django, disco
-
