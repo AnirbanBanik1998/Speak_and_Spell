@@ -29,7 +29,7 @@ while 1:
 		answer=answer+letter
 		j=j+1
 	print(answer)
-	if answer==column[randcolumn[0]]:
+	if answer.lower()==column[randcolumn[0]]:
 		subprocess.call(["espeak", "Good"])
 	
 	else:

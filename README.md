@@ -14,6 +14,7 @@ sudo bash run.sh
 
 ### To run the voice input version of the games
 ```
+cd Voice
 sudo bash voice.sh
 ```
 
@@ -31,16 +32,17 @@ sudo bash voice.sh
 * Making "Crossword" game.
 * Building a suitable UI for the whole project.
 * Fixing bugs related to the speech processing part.
+* Migrating from Espeak to CMU-Flite for Text-to-Speech conversion. 
 
 ## Description
 
-### scraper.py
+### Wiki_scraper/scraper.py
 This scrapes out the basic English wordlists from Wikitionary to be used in this project.
 
 ### Game.py
 This is a basic terminal version of the games, where input is to be typed from the keyboard.
 
-### Game_voice.py
+### Voice/Game_voice.py
 This provides an added functionality where words spoken out over the microphone are treated as inputs.
 
 
