@@ -4,12 +4,12 @@ This is a modification in progress...basically adding a speech processing featur
 
 ## Usage
 
-To run this section just 
+To run this section just type
 ```
 sudo bash voice.sh
 ```
 
-##Improvements to be made
+## Improvements to be made
 * Noise Reduction
 * Improving Accuracy
 * Automating the pocketsphinx_continuous command, so that there is no need to type the command in another terminal manually.
